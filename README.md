@@ -11,3 +11,25 @@ Hi everyone! This project deals with a configuration for printing reports of all
   Link Documentation Vacuumdb https://www.postgresql.org/docs/current/app-vacuumdb.html
   
   Link documentation Psql Commands https://www.postgresql.org/docs/devel/app-psql.html
+  
+  #Instructions
+  
+  Run the following commands:
+  
+  1 - cd /var/lib/postgresql/
+  
+  2 - mkdir scripts
+  
+  3 - cd scripts/
+  (one at time)
+  4 - touch pg_reports.sh / touch executar_selects.sh / touch select_reports.sql
+  
+  5 - chmod 777 pg_reports.sh / chmod 777 executar_selects.sh / chmod 777 seletc_reports.sql
+  
+  6 - mkdir stats/
+  
+  7 - ./pg_reports.sh
+  
+  
+  
+  
